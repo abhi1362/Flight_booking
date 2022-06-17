@@ -1,7 +1,7 @@
 import React from 'react'
 import './Menu.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse, faCirclePlus, faList, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faCirclePlus, faList } from '@fortawesome/free-solid-svg-icons';
 import { Link, useParams  } from "react-router-dom";
 
 const Menu = () => {
@@ -14,7 +14,7 @@ const Menu = () => {
         <div className={`view-airport item ${param['*'] === 'airportDetails' ? 'selected-list' : ""}`}><Link to="airportDetails"><span><FontAwesomeIcon icon={faList} className='icon-item'/></span>View Airport</Link></div>
         <div className={`add-flight item ${param['*'] === 'addFlight' ? 'selected-list' : ""}`}><Link to="addFlight"><span><FontAwesomeIcon icon={faCirclePlus} className='icon-item'/></span>Add Flight</Link></div>
         <div className={`view-flight item ${param['*'] === 'flightDetails' ? 'selected-list' : ""}`}><Link to="flightDetails"><span><FontAwesomeIcon icon={faList} className='icon-item'/></span>View Flight</Link></div>
-        <div className='search-flight item'><span><FontAwesomeIcon icon={faMagnifyingGlass} className='icon-item'/></span>Search Flight</div>
+        {/* <div className='search-flight item'><span><FontAwesomeIcon icon={faMagnifyingGlass} className='icon-item'/></span>Search Flight</div> */}
     </div>
   )
 }
