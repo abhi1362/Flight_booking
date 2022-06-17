@@ -1,0 +1,33 @@
+.view-flight-list{
+    background-color: #fff;
+    padding: 20px;
+    margin: 25px 15px 15px 15px;
+    border-radius: 5px;
+}
+.view-flight-table{
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+.view-flight-table td{
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.view-flight-table th{
+    padding: 0.75rem;
+    text-align: left;
+} 
+.trash-icon-view-flight{
+    color: red;
+    padding-left: 15px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1170px) {
+    .view-flight-list{
+        overflow-x: auto;
+    }
+    .trash-icon-view-flight{
+        padding-left: 8px;
+    }
+}

@@ -1,0 +1,18 @@
+.page-heading{
+    display: flex;
+    justify-content: space-between;
+    color: #e9f4fb;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+    font-size: 20px;
+    background: -webkit-linear-gradient(right,#a100ff,#2d95ee);
+}
+.flight-icon-heading{
+    display: flex;
+}
+.plane-icon{
+    padding: 22px 5px 0px 20px;
+}
+.signout-icon{
+    padding: 22px;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.add-airport-list{
+    background-color: #fff;
+    padding: 20px;
+    margin: 25px 15px 15px 15px;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    left: 18%;
+}
+.add-airport-heading{
+    font-weight: bold;
+    font-size: 22px;
+}
+@media screen and (max-width: 920px) {
+    .add-airport-list{
+        left: 0px;
+        min-width: calc(100% - 73px);
+    }
+}

@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Test",
+      "password": "test123",
+      "phone": "9876789876",
+      "adminStatus": "Active"
+    },
+    {
+      "username": "Test123",
+      "password": "nayan",
+      "id": 2,
+      "phone": "876",
+      "adminStatus": "Active"
+    },
+    {
+      "username": "abhi",
+      "password": "nayan",
+      "id": 3,
+      "phone": "976",
+      "adminStatus": "Active"
+    }
+  ],
+  "airportDetails": [
+    {
+      "airportCode": "307",
+      "airportState": "Maharashtra",
+      "airportName": "Nagpur",
+      "id": 1
+    },
+    {
+      "airportCode": "314",
+      "airportState": "Jharkhand",
+      "airportName": "Deoghar",
+      "id": 2
+    },
+    {
+      "airportCode": "405",
+      "airportState": "Maharashtra",
+      "airportName": "Pune",
+      "id": 3
+    },
+    {
+      "airportCode": "608",
+      "airportState": "Bihar",
+      "airportName": "Gaya",
+      "id": 4
+    },
+    {
+      "airportCode": "891",
+      "airportState": "West Bangal",
+      "airportName": "Howrah",
+      "id": 5
+    }
+  ],
+  "flightDetails": [
+    {
+      "flightNumber": "24535",
+      "airline": "Spice Jet",
+      "id": 1,
+      "from": "PATNA",
+      "to": "PUNE",
+      "deptDate": "2022-08-25",
+      "availableSeats": "50",
+      "fare": "2900",
+      "status": "Active"
+    },
+    {
+      "flightNumber": "34676",
+      "airline": "IndiGo",
+      "id": 2,
+      "from": "MUM",
+      "to": "PUNE",
+      "deptDate": "2022-07-19",
+      "availableSeats": "55",
+      "fare": "2800",
+      "status": "Active"
+    },
+    {
+      "flightNumber": "55555",
+      "airline": "indi",
+      "from": "PUN",
+      "to": "GUJ",
+      "deptDate": "2022-06-01",
+      "availableSeats": "54",
+      "fare": "6788",
+      "status": "Active",
+      "id": 3
+    },
+    {
+      "flightNumber": "76868",
+      "airline": "ind",
+      "from": "iju",
+      "to": "WES",
+      "deptDate": "2022-06-30",
+      "availableSeats": "12",
+      "fare": "3432",
+      "status": "Active",
+      "id": 4
+    },
+    {
+      "flightNumber": "11111",
+      "airline": "air india",
+      "from": "IXR",
+      "to": "DEL",
+      "deptDate": "2022-10-12",
+      "availableSeats": "23",
+      "fare": "3432",
+      "status": "Active",
+      "id": 5
+    },
+    {
+      "flightNumber": "76868",
+      "airline": "indi",
+      "from": "asd",
+      "to": "asdas",
+      "deptDate": "2022-06-03",
+      "availableSeats": "23",
+      "fare": "3432",
+      "status": "Active",
+      "id": 6
+    },
+    {
+      "flightNumber": "76868",
+      "airline": "ind",
+      "from": "PUN",
+      "to": "GUJ",
+      "deptDate": "2022-06-04",
+      "availableSeats": "23",
+      "fare": "3432",
+      "status": "Active",
+      "id": 7
+    }
+  ]
+}

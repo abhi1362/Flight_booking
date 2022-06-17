@@ -1,0 +1,29 @@
+.admin-home{
+    background-color: #fff;
+    padding: 20px;
+    margin: 25px 15px 15px 15px;
+    border-radius: 5px;
+}
+.user-img{
+    height: 156px;
+    border: 2px solid #fc00ff;
+    border-radius: 90px;
+}
+.img-div{
+    text-align: center;
+}
+.admin-text{
+    font-size: 20px;
+}
+.home-table {
+    border-collapse: collapse;
+    table-layout: fixed ; 
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.home-table td {
+    border: 1px solid #fc00ff;
+    text-align: left;
+    padding: 8px;
+}

@@ -1,0 +1,37 @@
+.add-flight-list{
+    background-color: #fff;
+    padding: 20px;
+    margin: 25px 15px 15px 15px;
+    border-radius: 5px;
+}
+.add-flight-heading{
+    font-weight: bold;
+    font-size: 22px;
+}
+.schedule-flight-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.schedule-flight-row input[type=text],[type=date]{
+    width: 85%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    display: block;
+}
+.schedule-flight-col{
+    width: 50%;
+}
+
+@media screen and (max-width: 921px) {
+    .schedule-flight-row{
+        flex-direction: column;
+    }
+    .schedule-flight-col{
+        width: 100%;
+    }
+}

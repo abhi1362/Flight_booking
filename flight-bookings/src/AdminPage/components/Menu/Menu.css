@@ -1,0 +1,23 @@
+.menu-list{
+    background-color: #fff;
+    padding: 20px;
+    margin: 25px 15px 0px 15px;
+    border-radius: 5px;
+}
+.item{
+    padding: 16px;
+}
+.icon-item{
+    padding-right: 8px;
+}
+.menu-heading{
+    padding-left: 14px;
+}
+.selected-list{
+    border: 1px solid #f8f5f5;
+    background-color: #f8f5f5;
+}
+.item a{
+    display: block;
+    text-decoration: none;
+}

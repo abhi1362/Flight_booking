@@ -1,0 +1,8 @@
+
+
+.App{
+    background: -webkit-linear-gradient(right,#fc00ff,#00dbde);
+    min-height: 125vh;
+    margin: 0;
+    padding: 0;
+}
