@@ -49,7 +49,7 @@ const ViewAirport = () => {
                             <td>{data.airportCode}</td>
                             <td>{data.airportState}</td>
                             <td>{data.airportName}</td>
-                            <td><FontAwesomeIcon icon={faPenToSquare} className="edit-icon" onClick={()=>editAirportDeatils(data)}/> <FontAwesomeIcon icon={faTrash} className="trash-icon" onClick={()=>deleteAirportData(data.id)} /></td>
+                            <td><FontAwesomeIcon icon={faPenToSquare} tabIndex={0} role="button" className="edit-icon" onClick={()=>editAirportDeatils(data)} onKeyPress={e => (e.key === 'Enter' || e.key === " ") ? editAirportDeatils(data) : null }/> <FontAwesomeIcon icon={faTrash} role='button' tabIndex={0} className="trash-icon" onClick={()=>deleteAirportData(data.id)} onKeyPress={e => (e.key === 'Enter' || e.key === " ") ? deleteAirportData(data.id) : null }/></td>
                         </tr>
                     )
                 })}

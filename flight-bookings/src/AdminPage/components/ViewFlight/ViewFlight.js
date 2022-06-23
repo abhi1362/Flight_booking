@@ -59,7 +59,7 @@ const ViewFlight = () => {
                             <td>{data.availableSeats}</td>
                             <td>{data.fare}</td>
                             <td>{data.status}</td>
-                            <td><FontAwesomeIcon icon={faPenToSquare} className="edit-icon" onClick={()=>editFlightDeatils(data)}/> <FontAwesomeIcon icon={faTrash} className="trash-icon-view-flight" onClick={()=>deleteFlightData(data.id)}/></td>
+                            <td><FontAwesomeIcon icon={faPenToSquare} tabIndex={0} className="edit-icon" onClick={()=>editFlightDeatils(data)} onKeyPress={e => (e.key === 'Enter' || e.key === " ") ? editFlightDeatils(data) : null }/> <FontAwesomeIcon icon={faTrash} tabIndex={0} className="trash-icon-view-flight" onClick={()=>deleteFlightData(data.id)} onKeyPress={e => e.key === 'Enter' || e.key === " " ? deleteFlightData(data.id) : null }/></td>
                         </tr>
                     )
                 })}

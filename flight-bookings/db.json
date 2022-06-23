@@ -24,18 +24,6 @@
   ],
   "airportDetails": [
     {
-      "airportCode": "307",
-      "airportState": "Maharashtra",
-      "airportName": "Nagpur",
-      "id": 1
-    },
-    {
-      "airportCode": "314",
-      "airportState": "Jharkhand",
-      "airportName": "Deoghar",
-      "id": 2
-    },
-    {
       "airportCode": "405",
       "airportState": "Maharashtra",
       "airportName": "Pune",
@@ -52,31 +40,15 @@
       "airportState": "West Bangal",
       "airportName": "Howrah",
       "id": 5
+    },
+    {
+      "airportCode": "123",
+      "airportState": "Maharashtra",
+      "airportName": "Nagpur",
+      "id": 6
     }
   ],
   "flightDetails": [
-    {
-      "flightNumber": "24535",
-      "airline": "Spice Jet",
-      "id": 1,
-      "from": "PATNA",
-      "to": "PUNE",
-      "deptDate": "2022-08-25",
-      "availableSeats": "50",
-      "fare": "2900",
-      "status": "Active"
-    },
-    {
-      "flightNumber": "34676",
-      "airline": "IndiGo",
-      "id": 2,
-      "from": "MUM",
-      "to": "PUNE",
-      "deptDate": "2022-07-19",
-      "availableSeats": "55",
-      "fare": "2800",
-      "status": "Active"
-    },
     {
       "flightNumber": "55555",
       "airline": "indi",
