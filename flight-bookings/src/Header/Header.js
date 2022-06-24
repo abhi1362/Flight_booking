@@ -12,15 +12,15 @@ const Header = ({isLogin, setIsLogin}) => {
     navigate('/');
   }
   return (
-    <div className='page-heading'>
+    <header className='page-heading'>
         <div className='flight-icon-heading'>
             <FontAwesomeIcon icon={faPlaneUp} className='plane-icon'/>
-            <p>Flight Booking</p>
+            <h2 className='flight-booking-text'>Flight Booking</h2>
         </div>
         <div>
             {isLogin && <FontAwesomeIcon icon={faSignOutAlt} className='signout-icon' onClick={logout}/>}
         </div>
-    </div>
+    </header>
   )
 }
 
